@@ -12,11 +12,34 @@
 </head>
 
 <body>
-<img src="/images/model.jpg" alt="featuredproduct">
+<nav class="navbar  navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button id="toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+      	<li><a href="/static_pages/index">Home</a></li>
+        <li><a href="/static_pages/about">About</a></li>
+        <li><a href="/static_pages/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row">
+	<img src="/images/model.jpg" alt="featuredproduct" class="img-responsive">
+	</div>
+</div>
 
 <%= yield %>
 <h1>Welcome to ZTask</h1>
 <h2>Delegation. Made Simple...</h2> 
-
 </body>
 </html>
