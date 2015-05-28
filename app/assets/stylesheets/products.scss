@@ -1,0 +1,24 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Zebra-striped table 
+table {
+ width: 100%;
+ padding-bottom: 2em;
+}
+
+table, td, th {
+ border: 1px solid black;
+}
+
+th {
+ height: 3.571em;
+ text-align: center;
+}
+
+td {
+ padding: .5em;
+ height: .5em;
+ text-align: center;
+}
