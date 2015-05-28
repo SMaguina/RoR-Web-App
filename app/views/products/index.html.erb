@@ -39,7 +39,10 @@
       </tr>
     </table>
   </tr>
-  </thead>
+
+  <p> 
+    <a class="btn btn-primary btn-lg" type="button" role="button" style="textarea: color:black;" <a href="/products/new">New Product</a>
+  </p>
 
   <tbody>
     <% @products.each do |product| %>
@@ -57,4 +60,3 @@
 
 <br>
 
-<%= link_to 'New Product', new_product_path %>
