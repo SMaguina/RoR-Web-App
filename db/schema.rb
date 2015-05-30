@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 20150530202006) do
     t.string   "name"
     t.text     "description"
     t.string   "image_url"
+    t.string   "colour"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-    t.string   "colour"
   end
 
 end
