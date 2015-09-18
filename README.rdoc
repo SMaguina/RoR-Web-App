@@ -1,6 +1,6 @@
 == README RoR Web App (Test Environment)
 
-Dabbled in Ruby syntax and setup Rails framework to become familiar with its client/server model. <br>
-Launched on local Rails server.<br>
+Dabbled in Ruby syntax and setup Rails framework to become familiar with its client/server model.
+Launched on local Rails server.
 Worked on this to understand Database migrations, schemas, gems, MVC, and deploying changes to Heroku.
 
