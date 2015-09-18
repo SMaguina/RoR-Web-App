@@ -1,28 +1,6 @@
-== README new app
+== README RoR Web App (Test Environment)
 
-This README test message...... would normally document whatever steps are necessary to get the
-application up and running.
+Dabbled in Ruby syntax and setup Rails framework to become familiar with its client/server model. <br>
+Launched on local Rails server.<br>
+Worked on this to understand Database migrations, schemas, gems, MVC, and deploying changes to Heroku.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
